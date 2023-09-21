@@ -80,7 +80,7 @@ function App() {
     const websiteUrl2 = `https://app.scrapingbee.com/api/v1/?api_key=MEKU7IJVZISUVIEXGEZCMUIQPNLMK6U6V26EVI9HDXC3SCXI2MEIN53HFSPAMHHJL6MHPI1SSBZQNSVE&url=${url}`
     const websiteUrl3 = `http://api.scraperapi.com?api_key=c11ecaf62953cf14865e91630d60f913&url=${url}`
 
-    fetch(websiteUrl2)
+    fetch(websiteUrl3)
       .then((response) => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
