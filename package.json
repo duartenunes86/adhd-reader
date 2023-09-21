@@ -11,9 +11,11 @@
     "custom-build": "npm install && npm run migrations && npm run compile-assets"
   },
   "dependencies": {
+    "-": "^0.0.1",
     "axios": "^1.5.0",
     "cheerio": "^1.0.0-rc.12",
     "express": "^4.18.2",
+    "netlify-cli": "^16.4.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "scrapingbee": "^1.7.4"
